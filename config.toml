@@ -1,0 +1,55 @@
+baseurl      = "localhost"
+title        = "Treeant Web Design and Cloud Hosting"
+languageCode = "en-gb"
+theme        = "hugo-theme-hello-friend-ng"
+paginate     = 10
+
+[params]
+  dateform        = "Jan 2, 2020"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2020-01-02"
+  dateformNumTime = "2020-01-02 15:04 -0700"
+
+  # Subtitle for home
+  homeSubtitle = "Web Design & Cloud Hosting"
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = false
+
+  # Enable sharing buttons, if you linke
+  enableSharingButtons = true
+
+  # Metadata mostly used in document's head
+  description = "treeant web design and cloud hosting"
+  keywords = "website, design, cloud, hosting, web, development, maintenance"
+  images = [""]
+
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[taxonomies]
+    category = "web design"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "Treeant"
+    subtitle = "Web Design & Cloud Hosting"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Treeant"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
