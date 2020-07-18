@@ -1,7 +1,7 @@
 baseurl      = "localhost"
 title        = "Treeant Web Design and Cloud Hosting"
 languageCode = "en-gb"
-theme        = "hugo-theme-hello-friend-ng"
+theme        = "hello-friend-ng"
 paginate     = 10
 
 [params]
@@ -53,3 +53,11 @@ paginate     = 10
     identifier = "blog"
     name       = "Blog"
     url        = "/posts"
+  [[menu.main]] 
+    identifier = "about"
+    name       = "About"
+    url        = "/about"
+  [[menu.main]] 
+    identifier = "projects"
+    name       = "Projects"
+    url        = "/projects"  
